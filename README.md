@@ -7,4 +7,6 @@ To run this install:
     ```
     gcc main.c -lreadline
     ```
-  
+  ```
+    ./a.out
+    ```
