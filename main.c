@@ -3,6 +3,7 @@
 #include<string.h>
 #include<stdlib.h>
 #include<unistd.h>
+#include<color.h>
 #include<sys/types.h>
 #include<sys/wait.h>
 #include<readline/readline.h>
@@ -13,16 +14,6 @@
   
 // Clearing the shell using escape sequences
 #define clear() printf("\033[H\033[J")
-  void red () {
-   printf("\033[1;31m");
-}
-
-void reset(){
-   printf("\033[0m");
-}
-void green(){
-   printf("\033[0;32m");
-   }
 // Greeting shell during startup
 void init_shell()
 {
